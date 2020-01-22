@@ -2,4 +2,12 @@
     <string name="app_name">Townhouse App</string>
     <string name="author">Muhamad Hendri Febriansyah</string>
     <string name="email">hendrifebriansyah28@gmail.com</string>
+    <string name="phone_value">089789894566</string>
+    <string name="unit_value">80</string>
+    <string name="call">Call</string>
+    <string name="unit_name">Unit Name : </string>
+    <string name="unit_size">Unit Size : </string>
+    <string name="phone">Phone : </string>
+    <string name="unit_total">Unit Total : </string>
+    <string name="description">Description</string>
 </resources>

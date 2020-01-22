@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="30dp"
     android:background="@color/colorPrimary"
     android:layout_alignParentBottom="true">
@@ -10,7 +11,7 @@
         android:layout_height="wrap_content"
         android:text="@string/app_name"
         android:textColor="@color/white"
-        android:textSize="12dp"
+        android:textSize="@dimen/text_xsmall"
         android:fontFamily="@font/montserrat_light"
         android:textAlignment="center"
         android:layout_marginTop="@dimen/spacing_medium"

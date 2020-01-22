@@ -27,7 +27,8 @@
     <dimen name="picture_mlarge">50dp</dimen>
     <dimen name="picture_mxlarge">55dp</dimen>
     <dimen name="picture_xlarge">60dp</dimen>
-    <dimen name="picture_xmlarge">65dp</dimen>
-    <dimen name="picture_xxlarge">70dp</dimen>
-    <dimen name="picture_xxxlarge">75dp</dimen>
+
+    <dimen name="text_small">11sp</dimen>
+    <dimen name="text_xsmall">15sp</dimen>
+
 </resources>
