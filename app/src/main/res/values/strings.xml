@@ -5,9 +5,11 @@
     <string name="phone_value">089789894566</string>
     <string name="unit_value">80</string>
     <string name="call">Call</string>
-    <string name="unit_name">Unit Name : </string>
-    <string name="unit_size">Unit Size : </string>
-    <string name="phone">Phone : </string>
-    <string name="unit_total">Unit Total : </string>
+    <string name="unit_name">Unit Name :&#032;</string>
+    <string name="unit_size">Unit Size :&#032;</string>
+    <string name="phone">Phone :&#032;</string>
+    <string name="unit_total">Unit Total :&#032;</string>
     <string name="description">Description</string>
+    <string name="about">about</string>
+    <string name="description_value">No Description</string>
 </resources>
