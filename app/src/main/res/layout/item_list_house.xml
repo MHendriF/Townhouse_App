@@ -13,108 +13,108 @@
     android:layout_marginRight="8dp"
     android:layout_marginBottom="5dp">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_margin="@dimen/spacing_medium">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/spacing_medium">
 
-            <RelativeLayout
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="@dimen/spacing_large"
+                android:layout_marginRight="@dimen/spacing_xxxlarge">
+
+                <com.dicoding.townhouseapp.helper.RoundRectCornerImageView
+                    android:id="@+id/iv_item_photo"
+                    android:layout_width="105dp"
+                    android:layout_height="105dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/banner_default"
+                    android:scaleType="centerCrop"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_centerVertical="true"
-                    android:layout_marginBottom="@dimen/spacing_large"
-                    android:layout_marginRight="@dimen/spacing_xxxlarge">
-
-                    <com.dicoding.townhouseapp.helper.RoundRectCornerImageView
-                        android:id="@+id/iv_item_photo"
-                        android:layout_width="105dp"
-                        android:layout_height="105dp"
-                        android:layout_gravity="center_horizontal"
-                        android:src="@drawable/banner_default"
-                        android:scaleType="centerCrop"/>
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/spacing_medium">
+                    <TextView
+                        android:id="@+id/tv_item_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_light"
+                            android:textSize="@dimen/text_small"
+                            android:text="@string/unit_size"/>
+                        <TextView
+                            android:id="@+id/tv_item_size"
+                            android:layout_width="match_parent"
+                            android:fontFamily="@font/montserrat_light"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text_small"/>
+                    </LinearLayout>
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_marginLeft="@dimen/spacing_medium">
-                        <TextView
-                            android:id="@+id/tv_item_name"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Name"
-                            android:fontFamily="@font/montserrat_regular"
-                            android:textColor="@color/black"
-                            android:textStyle="bold"/>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat_light"
-                                android:textSize="@dimen/text_small"
-                                android:text="Size : "/>
-                            <TextView
-                                android:id="@+id/tv_item_size"
-                                android:layout_width="match_parent"
-                                android:fontFamily="@font/montserrat_light"
-                                android:layout_height="wrap_content"
-                                android:textSize="@dimen/text_small"/>
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/montserrat_light"
-                                android:textSize="@dimen/text_small"
-                                android:text="Unit Price : "/>
-                            <TextView
-                                android:id="@+id/tv_item_price"
-                                android:layout_width="match_parent"
-                                android:fontFamily="@font/montserrat_light"
-                                android:layout_height="wrap_content"
-                                android:textSize="@dimen/text_small"/>
-                        </LinearLayout>
-
+                        android:orientation="horizontal">
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/montserrat_light"
                             android:textSize="@dimen/text_small"
-                            android:text="Description : "/>
+                            android:text="@string/unit_price"/>
                         <TextView
-                            android:id="@+id/tv_item_description"
+                            android:id="@+id/tv_item_price"
                             android:layout_width="match_parent"
                             android:fontFamily="@font/montserrat_light"
-                            android:textSize="@dimen/text_small"
-                            android:layout_height="wrap_content"/>
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text_small"/>
                     </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserrat_light"
+                        android:textSize="@dimen/text_small"
+                        android:text="Description : "/>
+                    <TextView
+                        android:id="@+id/tv_item_description"
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/montserrat_light"
+                        android:textSize="@dimen/text_small"
+                        android:layout_height="wrap_content"/>
                 </LinearLayout>
+            </LinearLayout>
 
-                <Button
-                    android:id="@+id/btn_detail_item"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="View"
-                    android:fontFamily="@font/montserrat_bold"
-                    android:textColor="@color/colorPrimary"
-                    android:layout_alignParentRight="true"
-                    android:background="@android:color/transparent"
-                    android:layout_margin="@dimen/spacing_medium"/>
+            <Button
+                android:id="@+id/btn_detail_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_alignParentRight="true"
+                android:background="@android:color/transparent"
+                android:layout_margin="@dimen/spacing_medium"/>
 
-            </RelativeLayout>
-        </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
 
 </androidx.cardview.widget.CardView>

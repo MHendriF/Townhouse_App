@@ -5,11 +5,13 @@
     <string name="phone_value">089789894566</string>
     <string name="unit_value">80</string>
     <string name="call">Call</string>
-    <string name="unit_name">Unit Name :&#032;</string>
-    <string name="unit_size">Unit Size :&#032;</string>
-    <string name="phone">Phone :&#032;</string>
-    <string name="unit_total">Unit Total :&#032;</string>
+    <string name="unit_name">Unit Name :&#160;</string>
+    <string name="unit_size">Unit Size :&#160;</string>
+    <string name="unit_price">Unit Price :&#160;</string>
+    <string name="phone">Phone :&#160;</string>
+    <string name="unit_total">Unit Total :&#160;</string>
     <string name="description">Description</string>
     <string name="about">about</string>
     <string name="description_value">No Description</string>
+    <string name="price_value">Rp 212.122.322</string>
 </resources>
